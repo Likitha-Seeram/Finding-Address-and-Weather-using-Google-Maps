@@ -1,0 +1,35 @@
+<!-- 
+    Student Name: Seeram Likitha
+    Project Name: Project 2
+    Due Date: 26 Oct 2016
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Address with Weather Details</title>
+    <link rel="stylesheet" type="text/css" href="webmash.css">
+    <script type="text/javascript" src="webmash.js"></script>
+    <script 
+    async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIysycuWutCM8Gnd0Jzlru268kqju5BYU&callback=initMap" type="text/javascript"></script>
+  </head>
+  <body>
+  	<h1>Address and Weather Details</h1>
+  	<h3>Map</h3>
+  	
+  	<!-- (Section 1) Clear Button -->
+  	<input type="submit" name="Clear" value="Clear" onclick="clearHistory()">
+
+  	<!-- (Section 2) Google maps -->
+  	<h4> Click on the Map to know the Address and Weather in a place </h4>
+    <div id="map" style="width: 600px; height: 500px;"></div><br/>
+    
+    <!-- (Section 3) Text Display area for history logs -->
+    <section>
+    <h3>History Below: (Previous 10 Marker points, lastest one being the last)</h3>
+    <div id="history">
+    </div>
+    </section>
+  </body>
+</html>
+

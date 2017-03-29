@@ -1,0 +1,47 @@
+/*
+    Student Name: Seeram Likitha
+    Project Name: Project 2
+    Due Date: 26 Oct 2016
+*/
+h1 {
+	text-align: center;
+	background-color: #ffbcc0;
+	height: 60px;
+	margin: -5px -5px;
+	margin-top: -15px;
+	padding-top: 30px;
+}
+
+h3 {
+	float: left;
+}
+
+#map {
+	margin-left: 30px;
+	border: 3px solid #f9f902;
+	float: left;
+	width: 750px;
+	box-shadow: 5px 5px 5px #b5b503;
+}
+
+section {
+	float: right;
+	width: 450px;	
+}
+
+input[type="submit"] {
+	margin-top: 20px;
+	margin-left: 800px;
+	width: 60px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #d6d8d8;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px #9fa0a0;
+}
+
+p {
+	border-bottom: 1px solid #ef5151;
+}
+
